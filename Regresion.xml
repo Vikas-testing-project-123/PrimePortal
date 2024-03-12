@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestAutomation.TestCases.AddprojectsTest"/>
+      <class name="TestAutomation.TestCases.AddCustomerTest"/>
+      <class name="TestAutomation.TestCases.LoginFlowTest"/>
+      <class name="TestAutomation.TestCases.contractPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+<!--
+Here we have the: 
+1. login flow (with blank invalid and valid data)
+2. Customer create and search for that particular customer
+3. Add the project and search for that project
+4. Add contract flow
+-->
